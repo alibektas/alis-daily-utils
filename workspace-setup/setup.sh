@@ -1,4 +1,4 @@
-# ABC
+# DEF
 #This script installs some programs I like using.
 apt-get update
 apt-get install -y neovim exa
