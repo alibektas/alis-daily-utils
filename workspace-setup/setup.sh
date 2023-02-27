@@ -12,5 +12,6 @@ echo 'alias ls="exa -T -a --level 1 --icons"' >> ~/.bashrc
 mkdir -p ~/.config/nvim
 ln -s ./init.vim ~/.config/nvim/init.vim
 nvim +PlugInstall +qall
+nvim +'CocInstall coc-tsserver' +qall
 
-
+source ~/.bashrc
