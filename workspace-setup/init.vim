@@ -1,3 +1,7 @@
+syntax on
+set number relativenumber
+set nocompatible
+
 call plug#begin()
 " The default plugin directory will be as follows:
 "   - Vim (Linux/macOS): '~/.vim/plugged'
@@ -205,3 +209,12 @@ nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
+
+" Set the default layout for NERDTree
+let g:NERDTreeWinPos = 'left'
+let g:NERDTreeWinSize = 30
+let g:NERDTreeChDirMode = 2
+let g:coc_disable_startup_warning = 1
+
+" Auto-open NERDTree on startup
+autocmd VimEnter * NERDTree

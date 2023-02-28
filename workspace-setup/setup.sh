@@ -9,9 +9,9 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 
 # Replace ls with exa. 
 echo 'alias ls="exa -T -a --level 1 --icons"' >> ~/.bashrc
-mkdir -p ~/.config/nvim
-ln -s ./init.vim ~/.config/nvim/init.vim
-nvim +PlugInstall +qall
-nvim +'CocInstall coc-tsserver' +qall
-
+echo 'alias nvim="nvim -u /alis-daily-utils/workspace-setup/init.vim"' >> ~/.bashrc
 source ~/.bashrc
+
+nvim +PlugInstall +qall --headless
+nvim +'CocInstall coc-tsserver' +qall --headless
+
