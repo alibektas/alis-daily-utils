@@ -9,7 +9,7 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 
 # Replace ls with exa. 
 echo 'alias ls="exa -T -a --level 1 --icons"' >> ~/.bashrc
-echo 'alias nvim="nvim -u /alis-daily-utils/workspace-setup/init.vim"' >> ~/.bashrc
+echo 'alias vim="nvim -u /alis-daily-utils/workspace-setup/init.vim"' >> ~/.bashrc
 source ~/.bashrc
 
 nvim +PlugInstall +qall --headless
