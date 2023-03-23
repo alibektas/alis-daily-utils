@@ -1,15 +1,10 @@
 theme = "pop-dark"
 
 [editor]
-line-number = "relative"
+line-number = "absolute"
 mouse = false
 color-modes = true
 scroll-lines = 0
-
-[editor.cursor-shape]
-insert = "bar"
-normal = "block"
-select = "underline"
 
 [editor.file-picker]
 hidden = false
