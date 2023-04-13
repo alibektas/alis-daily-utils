@@ -3,7 +3,7 @@
         "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
     },
     "emmet.showSuggestionsAsSnippets": true,
-    "editor.snippetSuggestions": "top",
+    "editor.snippetSuggestions": "bottom",
     "editor.wordBasedSuggestions": false,
     "todo-tree.general.statusBar": "current file",
     "todo-tree.general.statusBarClickBehaviour": "toggle highlights",
@@ -45,7 +45,7 @@
         }
     },
     "todo-tree.filtering.ignoreGitSubmodules": true,
-    "todo-tree.highlights.enabled": false,
+    "todo-tree.highlights.enabled": true,
     "javascript.updateImportsOnFileMove.enabled": "always",
     "explorer.confirmDragAndDrop": false,
     "debug.console.acceptSuggestionOnEnter": "on",
@@ -147,17 +147,17 @@
     },
     "typescript.suggest.classMemberSnippets.enabled": false,
     "typescript.suggest.includeCompletionsWithSnippetText": false,
-    "rust-analyzer.check.command": "clippy",
     "workbench.colorTheme": "GitHub Dark",
     "editor.minimap.renderCharacters": false,
     "editor.minimap.enabled": false,
-    "workbench.editor.showTabs": false,
-    "workbench.activityBar.visible": false,
     "editor.lineNumbers": "relative",
     "editor.cursorBlinking": "solid",
     "debug.allowBreakpointsEverywhere": true,
     "lldb.launch.terminal": "external",
     "terminal.explorerKind": "external",
-    "vim.commandLineModeKeyBindings": [],
-
+    "window.zoomLevel": 1,
+    "workbench.activityBar.visible": false,
+    "gitlens.hovers.currentLine.details": false,
+    "gitlens.hovers.currentLine.changes": false,
+    
 }

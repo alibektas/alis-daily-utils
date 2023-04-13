@@ -1,4 +1,4 @@
-theme = "monokai"
+theme = "ayu_dark"
 
 [editor]
 line-number = "absolute"
@@ -9,12 +9,8 @@ scroll-lines = 0
 [editor.file-picker]
 hidden = false
 
-# [editor.lsp]
-# display-inlay-hints = true
-
-[keys.insert]
-# Esc is both far away from common keys and it is lagging on my laptop.
-"C-n"  = "normal_mode"
+[editor.lsp]
+display-inlay-hints = true
 
 [editor.soft-wrap]
 enable = true
@@ -22,3 +18,26 @@ max-wrap = 25 # increase value to reduce forced mid-word wrapping
 max-indent-retain = 0
 wrap-indicator = ""  # set wrap-indicator to "" to hide it
  
+
+[keys.insert]
+up = "no_op"
+down = "no_op"
+left = "no_op"
+right = "no_op"
+# Esc is both far away from common keys and it is lagging on my laptop.
+"C-e"  = "normal_mode"
+
+[keys.normal]
+up = "no_op"
+down = "no_op"
+left = "no_op"
+right = "no_op"
+
+[keys.select]
+up = "no_op"
+down = "no_op"
+left = "no_op"
+right = "no_op"
+# Esc is both far away from common keys and it is lagging on my laptop.
+"C-e"  = "normal_mode"
+
