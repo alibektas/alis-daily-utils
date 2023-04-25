@@ -1,7 +1,5 @@
 {
-    "[markdown]": {
-        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
-    },
+    
     "emmet.showSuggestionsAsSnippets": true,
     "editor.snippetSuggestions": "bottom",
     "editor.wordBasedSuggestions": false,
@@ -67,7 +65,13 @@
     "npm.keybindingsChangedWarningShown": true,
     "git.enableSmartCommit": true,
     "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "typescript.format.semicolons": "insert",
+        "inlayHints.parameterNames.enabled": "literals",
+        "typescript.preferences.quoteStyle": "double",
+        "typescript.suggest.completeFunctionCalls": true,
+        "typescript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": false,
+        "typescript.inlayHints.variableTypes.suppressWhenTypeMatchesName": false,
     },
     "window.confirmBeforeClose": "always",
     "svelte.plugin.svelte.note-new-transformation": false,
@@ -78,44 +82,9 @@
     ],
     "editor.inlineSuggest.enabled": true,
     "audioCues.lineHasInlineSuggestion": "off",
-    "github.copilot.advanced": {
-        "debug.showScores": true,
-        "inlineSuggestCount": 5,
-        "length": 900,
-    
-    },
-    "github.copilot.enable": {
-        "*": true,
-        "yaml": false,
-        "plaintext": false,
-        "markdown": false,
-        "python": true
-    },
-    "typescript.format.semicolons": "insert",
-    "typescript.inlayHints.parameterNames.enabled": "literals",
-    "typescript.preferences.quoteStyle": "double",
-    "typescript.suggest.completeFunctionCalls": true,
-    "typescript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": false,
-    "typescript.inlayHints.variableTypes.suppressWhenTypeMatchesName": false,
     "javascript.inlayHints.variableTypes.suppressWhenTypeMatchesName": false,
     "typescript.implementationsCodeLens.enabled": true,
     "prettier.insertPragma": true,
-    "mssql.connections": [
-        {
-            "server": "shamfi-db",
-            "database": "AxataWM",
-            "authenticationType": "SqlLogin",
-            "user": "sa",
-            "password": "",
-            "emptyPasswordInput": false,
-            "savePassword": true
-        }
-    ],
-    "mssql.enableQueryHistoryCapture": false,
-    "hexeditor.columnWidth": 8,
-    "hexeditor.inspectorType": "aside",
-    "hexeditor.defaultEndianness": "little",
-    "hexeditor.showDecodedText": true,
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
@@ -131,16 +100,9 @@
     "python.analysis.typeCheckingMode": "strict",
     "python.languageServer": "Pylance",
     "jupyter.askForKernelRestart": false,
-    "sqltools.connections": [],
-    "[sql]": {
-        "editor.defaultFormatter": "mtxr.sqltools"
-    },
     "python.analysis.diagnosticMode": "workspace",
     "python.analysis.diagnosticSeverityOverrides": {
-
         "reportUnknownMemberType": "none",
-        
-
     },
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -155,9 +117,17 @@
     "debug.allowBreakpointsEverywhere": true,
     "lldb.launch.terminal": "external",
     "terminal.explorerKind": "external",
-    "window.zoomLevel": 1,
     "workbench.activityBar.visible": false,
     "gitlens.hovers.currentLine.details": false,
     "gitlens.hovers.currentLine.changes": false,
+    "editor.fontFamily": "Andale , Monaco, 'Courier New', monospace",
+    "workbench.editor.centeredLayoutAutoResize": false,
+    "zenMode.centerLayout": false,
+    "rust-analyzer.inlayHints.closingBraceHints.enable": false,
+    "rust-analyzer.inlayHints.chainingHints.enable": false,
+    "rust-analyzer.inlayHints.expressionAdjustmentHints.hideOutsideUnsafe": true,
+    "editor.inlayHints.enabled": "offUnlessPressed",
+    "rust-analyzer.checkOnSave": false
+    
     
 }

@@ -1,43 +1,30 @@
-theme = "ayu_dark"
+theme = "dark_plus"
 
 [editor]
-line-number = "absolute"
-mouse = false
+line-number = "relative"
+mouse = true
 color-modes = true
-scroll-lines = 0
+scroll-lines = 1
 
 [editor.file-picker]
 hidden = false
 
 [editor.lsp]
-display-inlay-hints = true
+# display-inlay-hints = true
 
 [editor.soft-wrap]
 enable = true
 max-wrap = 25 # increase value to reduce forced mid-word wrapping
 max-indent-retain = 0
 wrap-indicator = ""  # set wrap-indicator to "" to hide it
- 
-
-[keys.insert]
-up = "no_op"
-down = "no_op"
-left = "no_op"
-right = "no_op"
-# Esc is both far away from common keys and it is lagging on my laptop.
-"C-e"  = "normal_mode"
 
 [keys.normal]
-up = "no_op"
-down = "no_op"
-left = "no_op"
-right = "no_op"
+"C-k" = "normal_mode"
+
+[keys.normal.space]
+i = ":toggle lsp.display-inlay-hints"
+
+[keys.insert]
+"C-k" = "normal_mode"
 
 [keys.select]
-up = "no_op"
-down = "no_op"
-left = "no_op"
-right = "no_op"
-# Esc is both far away from common keys and it is lagging on my laptop.
-"C-e"  = "normal_mode"
-
